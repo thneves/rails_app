@@ -1,4 +1,4 @@
-Rails.application.draw.routes do
+Rails.application.routes.draw do
   root 'cars#index'
   resources :cars
 end
